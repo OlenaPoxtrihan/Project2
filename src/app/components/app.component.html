@@ -1,0 +1,8 @@
+<div class="button">
+    <button (click)="showCar()">Car</button>
+    <button (click)="showPlane()">Plane</button>
+    <button (click)="showShip()">Ship</button>
+</div>
+<app-car *ngIf="infoCar"></app-car>
+<app-plane *ngIf="infoPlane"></app-plane>
+<app-ship *ngIf="infoShip"></app-ship>

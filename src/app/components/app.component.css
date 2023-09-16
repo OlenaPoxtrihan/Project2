@@ -1,0 +1,12 @@
+button{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(236, 232, 230);
+    margin: 10px 0;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(117, 161, 228);
+}
